@@ -64,7 +64,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <a href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-4 inline-block">
-              HomeComfort
+              elounge
             </a>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Your trusted destination for premium home appliances. Quality products, expert service, and unbeatable prices.
@@ -80,7 +80,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-blue-400 flex-shrink-0" />
-                <span className="text-gray-400 text-sm">support@homecomfort.com</span>
+                <span className="text-gray-400 text-sm">support@elounge.com</span>
               </div>
             </div>
           </div>
