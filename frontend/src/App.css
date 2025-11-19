@@ -32,3 +32,12 @@
         transform: rotate(360deg);
     }
 }
+
+/* Hide Emergent badge */
+iframe[src*="emergentagent"],
+div[class*="emergent"],
+a[href*="emergent"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
