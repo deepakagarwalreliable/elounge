@@ -41,8 +41,8 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <div className="flex items-center space-x-8">
-              <a href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-                HomeComfort
+              <a href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent whitespace-nowrap">
+                elounge
               </a>
 
               {/* Desktop Menu */}
@@ -54,8 +54,8 @@ const Navbar = () => {
                     onMouseEnter={() => setActiveMenu(category)}
                     onMouseLeave={() => setActiveMenu(null)}
                   >
-                    <button className="flex items-center space-x-1 px-4 py-2 rounded-lg hover:bg-gray-100 transition-all duration-200 group">
-                      <span className="font-medium text-gray-700 group-hover:text-blue-600 transition-colors">{category}</span>
+                    <button className="flex items-center space-x-1 px-3 py-2 rounded-lg hover:bg-gray-100 transition-all duration-200 group whitespace-nowrap">
+                      <span className="font-medium text-gray-700 group-hover:text-blue-600 transition-colors text-sm">{category}</span>
                       <ChevronDown className="w-4 h-4 text-gray-500 group-hover:text-blue-600 transition-all duration-200 group-hover:rotate-180" />
                     </button>
                   </div>
